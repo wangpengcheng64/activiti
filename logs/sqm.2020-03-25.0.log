@@ -1,0 +1,54 @@
+2020-03-25 17:56:54.891 [main] INFO  com.neimeng.workflow.WorkflowApplication:50 - Starting WorkflowApplication on DESKTOP-GLI3UCE with PID 15304 (E:\study\activiti\target\classes started by Administrator in E:\study\activiti)
+2020-03-25 17:56:54.895 [main] INFO  com.neimeng.workflow.WorkflowApplication:646 - No active profile set, falling back to default profiles: default
+2020-03-25 17:56:56.271 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'hibernateValidatorConfiguration' of type [com.neimeng.workflow.config.HibernateValidatorConfiguration$$EnhancerBySpringCGLIB$$3c30bd92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:56:56.331 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c0f7e8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:56:56.691 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8081 (http)
+2020-03-25 17:56:56.725 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-25 17:56:56.733 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2020-03-25 17:56:56.734 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-03-25 17:56:56.992 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2020-03-25 17:56:56.992 [main] INFO  org.springframework.web.context.ContextLoader:283 - Root WebApplicationContext: initialization completed in 2046 ms
+2020-03-25 17:56:57.724 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-03-25 17:56:57.969 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-03-25 17:56:59.352 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory:38 - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+2020-03-25 17:56:59.690 [main] INFO  org.activiti.engine.impl.ProcessEngineImpl:87 - ProcessEngine default created
+2020-03-25 17:57:00.614 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-25 17:57:01.143 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-03-25 17:57:01.162 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-03-25 17:57:01.214 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-03-25 17:57:01.774 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-25 17:57:01.869 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-25 17:57:01.878 [main] INFO  com.neimeng.workflow.WorkflowApplication:59 - Started WorkflowApplication in 7.802 seconds (JVM running for 10.226)
+2020-03-25 17:57:09.039 [http-nio-8081-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 17:57:09.040 [http-nio-8081-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-25 17:57:09.068 [http-nio-8081-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 12 ms
+2020-03-25 17:57:11.304 [http-nio-8081-exec-7] INFO  com.neimeng.workflow.controller.ModelerController:75 - 创建模型入参name：activiti,key:123456
+2020-03-25 17:57:11.471 [http-nio-8081-exec-7] INFO  com.neimeng.workflow.controller.ModelerController:96 - 创建模型完善ModelEditorSource入参模型ID：12501
+2020-03-25 17:57:11.494 [http-nio-8081-exec-7] INFO  com.neimeng.workflow.controller.ModelerController:108 - 创建模型完善ModelEditorSource结束
+2020-03-25 17:57:11.495 [http-nio-8081-exec-7] INFO  com.neimeng.workflow.controller.ModelerController:87 - 创建模型结束，返回模型ID：12501
+2020-03-25 17:58:34.924 [http-nio-8081-exec-8] INFO  com.neimeng.workflow.controller.ModelerController:119 - 流程部署入参modelId：12501
+2020-03-25 17:58:35.257 [http-nio-8081-exec-8] INFO  com.neimeng.workflow.controller.ModelerController:142 - 流程部署出参map：{code=SUCCESS}
+2020-03-25 18:00:50.450 [main] INFO  com.neimeng.workflow.WorkflowApplication:50 - Starting WorkflowApplication on DESKTOP-GLI3UCE with PID 1824 (E:\study\activiti\target\classes started by Administrator in E:\study\activiti)
+2020-03-25 18:00:50.454 [main] INFO  com.neimeng.workflow.WorkflowApplication:646 - No active profile set, falling back to default profiles: default
+2020-03-25 18:00:52.216 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'hibernateValidatorConfiguration' of type [com.neimeng.workflow.config.HibernateValidatorConfiguration$$EnhancerBySpringCGLIB$$663b4d4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 18:00:52.276 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$661a0e46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 18:00:52.587 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8081 (http)
+2020-03-25 18:00:52.601 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-25 18:00:52.610 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2020-03-25 18:00:52.611 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-03-25 18:00:52.763 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2020-03-25 18:00:52.776 [main] INFO  org.springframework.web.context.ContextLoader:283 - Root WebApplicationContext: initialization completed in 2243 ms
+2020-03-25 18:00:53.511 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-03-25 18:00:53.742 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-03-25 18:00:54.421 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory:38 - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+2020-03-25 18:00:54.498 [main] INFO  org.activiti.engine.impl.ProcessEngineImpl:87 - ProcessEngine default created
+2020-03-25 18:00:55.041 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-25 18:00:55.394 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-03-25 18:00:55.416 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-03-25 18:00:55.464 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-03-25 18:00:55.809 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-25 18:00:55.838 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-25 18:00:55.841 [main] INFO  com.neimeng.workflow.WorkflowApplication:59 - Started WorkflowApplication in 6.091 seconds (JVM running for 7.544)
+2020-03-25 18:00:56.284 [http-nio-8081-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 18:00:56.284 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-25 18:00:56.294 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 10 ms
